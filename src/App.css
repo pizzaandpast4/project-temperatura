@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.temperature-display {
+  width: 220px;
+  height: 220px;
+  background-color: #20f50d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.increase-button {
+  background-color: red;
+}
+
+.increase-button:hover {
+  background-color: darkred;
+}
+
+.decrease-button {
+  background-color: #007bff;
+}
+
+.decrease-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: #252727;
+}
+
+.reset-button:hover {
+  background-color: #01080f;
+}
